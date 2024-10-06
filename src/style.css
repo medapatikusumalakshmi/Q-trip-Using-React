@@ -1,0 +1,278 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar css */
+nav{
+    background-color: #f8f9fa;
+    width: 100%;
+    display: inline-block;
+    height: 70px;
+    position: relative;
+    font-weight: bold;
+    
+}
+nav li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 30px;
+    font-family: var(--bs-font-sans-serif);
+}
+nav ul{
+
+    position: absolute;
+    top:20px;
+     margin-left: 60pc;
+}
+nav span{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.2rem;
+}
+
+nav button{
+    background-color: #F19537;
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 10px;
+}
+ #col{
+    color: #F19537;
+}
+ 
+/* footer */
+.container {
+    width: 100%;
+    color: #999;
+    padding-left: 100px;
+    padding-top: 15px;
+    background-color: #9999996b;
+    height: 50px;
+}
+/* background */
+#bg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/2422461/pexels-photo-2422461.jpeg?cs=srgb&dl=pexels-josh-hild-2422461.jpg&fm=jpg");
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#con{
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 1200px;
+    bottom: 34%;
+    left: 9%;
+
+}
+#con h1{
+    font-size: calc(1.375rem + 1.5vw);
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+#con p {
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+#con input{
+    width: 80%;
+    height: 50px;
+    border-radius: 8px;
+    border: none;   
+}
+#hover:hover{
+
+    /* transform: scale(1.03);
+    transition: all 2sec;*/
+    cursor: pointer; 
+    transform: scale(1.02);
+    box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.3);
+}
+#text{
+ position: absolute;
+  bottom: 35px;
+  color: white;
+   right: 105px; 
+   text-align: center;
+   z-index: 1;
+   font-weight: bold;
+   font-size: 1.5rem;
+}
+
+/* for reservations */
+#pag2{
+    height: 30vh;
+    width: 100%;
+    margin-top: 100px;
+    padding-left: 100px;
+}
+#resdiv1{
+
+    width: 91%;
+}
+#resdiv2 h1{
+    font-weight: bold;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+#oop{
+    height: 50px;
+    width: 100%;
+    background-color:#bcbebf;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+#ta{
+    padding-top: 20px;
+    border-bottom: 2px solid;
+    padding-bottom: 9px;
+   
+}
+#ta th{
+  padding-right: 72px;
+}
+
+#register{
+    width: 30%;
+    height: 420px;
+    box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.3);
+    padding-left: 50px;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+#register h2{
+    color: #F19537;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#register input{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+#register button{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    color: white;
+    background-color: #F19537;
+}
+#register h6{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 0.65rem;
+}
+#login{
+    width: 30%;
+    height: 350px;
+    box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.3);
+    padding-left: 50px;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+#login h2{
+    color: #F19537;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#login input{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+#login button{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    color: white;
+    background-color: #F19537;
+}
+#innerdiv h1,p{
+    margin-bottom: 20px;
+}
+
+
+/* inner pages style */
+
+.headposition{
+    height: 75px;
+    margin: 20px;
+    border-top:1px solid ;
+    border-bottom: 1px solid;
+}
+.MenupartHeader{
+    
+    height: 40vh;
+    width: 80vw;
+    margin: auto;
+    margin-left: "150px";
+    position: relative;
+    top: 100px;   
+}
+#Menudata{
+    font-size: 23px;
+    margin-left:15px;
+}
+#headInner{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-evenly;  
+}
+#MenuName{
+    font-size: 40px;
+    margin: 15px;
+}
+.Menusub_InnerCard_Details{
+    height: 100px;   
+    position: relative;
+}
+.Menusub_InnerCard_Details:link{
+    text-decoration: none;
+    color: black;
+}
+.MenusubInnerCard{
+    border: 1px solid #dddddd;
+    height: 360px;
+    width: 310px;
+    border-radius: 10px;
+    position: relative;
+} 
+#Minput{
+    padding: 10px;
+}
+
+#indiv{
+    
+    height:180vh;
+    width: 100%;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+#indiv1{
+    
+    height:150vh;
+    width: 60%;  
+}
+.cdiv{
+    overflow: hidden;
+    height: 500px;
+    margin-bottom: 50px;
+}
